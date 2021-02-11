@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<style>
+		.center{
+			text-align:center;
+			color:red;
+			font-family:Brush Script MT;
+		}
+		.center1{
+			text-align:center;
+			color:yellow;
+					}
+    </style>
+</head>
+
+<body style="background-color: grey;">
+
+	
+
+<h1 class="center">Cvdragon</h1>
+<image src="https://media-exp1.licdn.com/dms/image/C561BAQEtCa0eWMaDxA/company-background_10000/0/1604475089222?e=2159024400&v=beta&t=aH_XPcoP7EYdMJdJQL5v6LYZWFCsuJDhMsgf_iCMKh4"
+	alt="cvdragon app"
+	style="width:1500px;height:200px;">
+<h2 class="center">About the app!!!</h2>
+<p>“Your resume says a lot about you, it determines whether you will be called in for an interview or not.” No one can create a perfect CV on their first try but cvDragon NextGen Resume Builder is an app that helps you in creating your perfect resume at the very first endeavor. Isn’t it amazing?</p>
+<p>There may be confusion, especially for the freshers on what to and what not to include in their resume. cvDragon provides various sections to be filled about our information. Just one click on a design template can manifest a professional resume. I was really staggered and wide-eyed when I created my perfect resume instantly with a single click. I now have my resume in different formats and templates and I can apply them to many jobs accordingly.</p>
+<p>Resume building is no longer a stressful act, it is really captivating and effective.  cvDragon is a great platform for students and jobseekers. It allows you to create hassle free and professionally cleaned resumes which would definitely help you to get your dream job. A well-constructed resume can punch your ticket to your next job and cvdragon ultimately helps in achieving it so.</p>
+<h2>DO YOU WANT TO CREATE YOUR RESUME?</h2>
+
+ <script>
+$('input[type="checkbox"]').on('change', function() {
+   $(this).siblings('input[type="checkbox"]').prop('checked', false);
+});
+</script>
+<form action="/action_page.php">
+  <input type="checkbox" id="1" name="1" value="YES">
+  <label for="vehicle1">YES</label><br>
+  <input type="checkbox" id="2" name="2" value="NO">
+  <label for="vehicle2">NO</label><br>
+ 
+
+</form>
+<h2 class="center1">cvdragon offical website</h2>
+<div style="text-align: center;"><iframe src="https://cvdragon.com/"
+	width="560" height="315"
+	style="border:none;">
+</iframe>
+<h2 class="center1">cvdragon youtube video</h2>
+<div style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/cS2sgKdYV3o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	
+	
+</iframe>
+
+</body>
+</html>
